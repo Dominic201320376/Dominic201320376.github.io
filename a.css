@@ -1,0 +1,103 @@
+/*!
+ * Some parts taken from:
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ 
+ * Bar graph from:
+ * http://www.htmlgoodies.com/html5/tutorials/bar-graph-with-css3-and-progressive-enhancement.html
+ */
+
+body{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+a {
+    font-size: 14px; 
+    text-decoration: none;
+	color: black;
+	padding-left: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+html {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(intro-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.skills {
+    padding: 50px 0;
+}
+
+
+dt { float: left; padding: 4px; }
+
+.bar {
+margin-left: 50px;
+margin-bottom: 10px;
+color: #fff;
+padding: 4px;
+text-align: center;
+background: -webkit-gradient(linear, left top, left bottom, from(#ff7617), to(#ba550f));
+background-color: #ff7617;
+-webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.25)));
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-animation-name:bar;
+-webkit-animation-duration:0.5s;
+-webkit-animation-iteration-count:1;
+-webkit-animation-timing-function:ease-out;
+}
+
+#data-one { -webkit-animation-name:bar-one; }
+#data-two { -webkit-animation-name:bar-two; }
+#data-three { -webkit-animation-name:bar-three; }
+#data-four { -webkit-animation-name:bar-four; }
+
+@-webkit-keyframes bar-one {
+0% { width:0%;}
+100% { width:100%;}
+}
+
+@-webkit-keyframes bar-two {
+0% { width:0%; }
+100% { width:100%; }
+}
+
+@-webkit-keyframes bar-three {
+0% { width:0%; }
+100% { width:100%; }
+}
+
+@-webkit-keyframes bar-four {
+0% { width:0%; }
+100% { width:100%; }
+}
